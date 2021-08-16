@@ -34,3 +34,50 @@
     display: inline-block;
     font-weight: 100;
 }
+
+
+/* Toast Styling */
+.mytoast {
+    position: fixed;
+    top: 0;
+    left: 8px;
+    right: 8px;
+    margin: auto;
+    z-index: 10000;
+  
+    max-width: 400px;
+    padding: 6px;
+    height: 80px;
+    line-height: 2.0;
+    font-size: 2rem;
+    background: #cccccc;
+    color: #08091b;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, top 0.2s, visibility 0.2s;
+  }
+  
+  .mytoast--visible {
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mytoast--success {
+    background: #00c02b;
+    border-color: #009d23;
+    color: #ffffff;
+  }
+  
+  .mytoast--error {
+    background: #d50000;
+    border-color: #ba0000;
+    color: #ffffff;
+  }
+  

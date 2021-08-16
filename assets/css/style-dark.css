@@ -72,6 +72,10 @@ html, body { font-family: "Ubuntu", sans-serif; color: #28384c; font-size: 14px;
   color: #fff !important;
 }
 
+#roadmap-title::before, #contact-title::before{
+  color: #ccc;
+}
+
 
 /*  */
 
@@ -6775,7 +6779,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .section-connect { overflow: visible; }
 
-.section-connect:before { position: absolute; top: 0; left: 50%; content: ""; height: 80px; width: 2px; transform: translate(-50%, -50%); background: linear-gradient(to top, #46bdf4 0%, #2b56f5 100%); z-index: 2; }
+.section-connect:before { position: absolute; top: 0; left: 50%; content: ""; height: 0px; width: 2px; transform: translate(-50%, -50%); background: linear-gradient(to top, #46bdf4 0%, #2b56f5 100%); z-index: 2; }
 
 .ov-v + .section { z-index: inherit; }
 
@@ -6813,7 +6817,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .section-t-m, .section-m { padding-top: 90px !important; }
   .section-b-m, .section-m { padding-bottom: 90px !important; } }
 
-@media (min-width: 992px) { .section-connect:before { height: 160px; }
+@media (min-width: 992px) { .section-connect:before { height: 0px; }
   .section-t, .section { padding-top: 120px; }
   .section-b, .section { padding-bottom: 120px; }
   .section-t-l, .section-l { padding-top: 120px !important; }
