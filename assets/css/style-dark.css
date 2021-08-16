@@ -6805,13 +6805,13 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .section-t-xl { padding-top: 150px !important; }
 
-@media (min-width: 576px) { .section-connect:before { height: 100px; }
+@media (min-width: 576px) { .section-connect:before { height: 0px; }
   .section-t, .section { padding-top: 45px; }
   .section-b, .section { padding-bottom: 45px; }
   .section-t-s, .section-s { padding-top: 60px !important; }
   .section-b-s, .section-s { padding-bottom: 60px !important; } }
 
-@media (min-width: 768px) { .section-connect:before { height: 120px; }
+@media (min-width: 768px) { .section-connect:before { height: 0px; }
   .section-t, .section { padding-top: 90px; }
   .section-b, .section { padding-bottom: 90px; }
   .section-t-m, .section-m { padding-top: 90px !important; }
