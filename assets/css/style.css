@@ -35,7 +35,55 @@
     font-weight: 100;
 }
 
+.front-btns{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 40px;
+}
 
+.video-link{
+  margin-top: 20px;
+}
+
+.wp-land-link{
+  background-color: #04062e;
+  background-image: linear-gradient(#04062e, #46bdf4);
+
+  color: #ffffff;
+  height: calc(100% - 48px);
+  border-radius: 48px;
+  padding: 12px 24px;
+  margin-right: 10px;
+  border: 2px solid #46bdf4;
+}
+
+@media (max-width: 991px){
+  .front-btns{
+    justify-content: center;
+  }
+
+  #front-img{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  .wp-land-link{
+    padding: 7px 9px;
+  }
+
+  .front-btns{
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .front-btns a:first-child{
+    margin-bottom: 9px;
+  }
+
+}
 /* Toast Styling */
 .mytoast {
     position: fixed;
@@ -80,4 +128,6 @@
     border-color: #ba0000;
     color: #ffffff;
   }
+
+
   
