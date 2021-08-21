@@ -7006,6 +7006,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
     padding: 8px;
   }
   
+  p.lead i{
+    font-size: 0.9em;
+  }
 }
 
 
