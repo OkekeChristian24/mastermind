@@ -59,6 +59,10 @@
   border: 2px solid #46bdf4;
 }
 
+
+.lead i{
+  text-shadow: 2px 2px 2px black;
+}
 @media (max-width: 991px){
   .front-btns{
     justify-content: center;
