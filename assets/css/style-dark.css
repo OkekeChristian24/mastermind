@@ -6952,7 +6952,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
     text-align: center;
   }
   .banner-gfx-re-s3 img{
-    max-width: 200px !important;
+    max-width: 300px !important;
     height: auto;
     margin: auto;
   }
