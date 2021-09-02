@@ -6946,13 +6946,20 @@ ul.progress-info { display: flex; justify-content: space-between; }
   /* border-radius: 12px; */
 }
 
+@media (max-width: 1200px){
+  #products-img img{
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 768px){
   .banner-gfx-re-s3{
     text-align: center;
   }
   .banner-gfx-re-s3 img{
-    max-width: 300px !important;
+    /* max-width: 300px !important; */
     height: auto;
     margin: auto;
   }
@@ -6960,6 +6967,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .myFlex{
     display: flex;
     flex-direction: column-reverse;
+    margin: 0 auto !important;
   }
 
   .btn-play-text .text-sm{
@@ -6982,9 +6990,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
     display: block;
 }
 
-  #products-img img{
+  /* #products-img img{
     width: 50px !important;
-  }
+  } */
 
   .is-transparent .banner-fs{
     min-height: 100vh;
@@ -6996,7 +7004,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   }
 
   p.lead i{
-    font-size: 1.5em;
+    font-size: 14px !important;
   }
 }
 
