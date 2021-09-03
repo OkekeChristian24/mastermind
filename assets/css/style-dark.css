@@ -60,20 +60,25 @@ html, body { font-family: "Ubuntu", sans-serif; color: #28384c; font-size: 14px;
 
 /* Custom Styles */
 #products{
-  background-color: #46BDF4 !important;
-  background-image: linear-gradient(180deg, #46BDF4 0%, rgba(0, 0, 0, 0) 100%) !important;
+  background-color: #08091B !important;
+  /* background-image: linear-gradient(180deg, #46BDF4 0%, rgba(0, 0, 0, 0) 100%) !important; */
 }
 #mission{
-  background-color: #46BDF4 !important;
-  background-image: linear-gradient(180deg, #46BDF4 0%, rgba(0, 0, 0, 0) 100%) !important;
+  background-color: #0e4a66 !important;
+  /* background-image: linear-gradient(180deg, #46BDF4 0%, #08091B 100%) !important; */
+}
+
+#distribution{
+  /* background-color: #e1e1e1 !important; */
+  background-image: linear-gradient(270deg, #1b729b 0%, #0C0D23 100%) !important;
 }
 
 .mission:before{
-  color: #fff !important;
+  color: #333333 !important;
 }
 
 #roadmap-title::before, #contact-title::before{
-  color: #ccc;
+  color: #333333;
 }
 
 
