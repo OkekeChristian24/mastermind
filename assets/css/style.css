@@ -1,3 +1,11 @@
+.roadmap-mobile{
+  display: none;
+}
+
+.roadmap-desktop{
+  display: inline;
+}
+
 .product-item i img{
   width: 100px;
   height: 100px;
@@ -66,10 +74,17 @@
   border: 2px solid #46bdf4;
 }
 
-
 .lead i{
   text-shadow: 2px 2px 2px black;
 }
+
+.contact-img{
+  width: 334px;
+  height: auto;
+}
+
+
+
 @media (max-width: 991px){
   .front-btns{
     justify-content: center;
@@ -95,6 +110,16 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  .roadmap-mobile{
+    display: inline;
+  }
+
+  .roadmap-desktop{
+    display: none;
+  }
+
+  
 
 
 

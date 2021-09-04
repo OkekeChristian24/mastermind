@@ -2267,10 +2267,10 @@ a .title { transition: all .4s; }
   .title-s4 { font-size: 2.3rem; }
   .title-s5.title-sm { font-size: 0.9rem; }
   .title-s5.title-sm span:first-child { font-size: 1.25rem; }
-  .title-xl-2 { font-size: 1.8rem !important; }
+  .title-xl-2 { font-size: 4.5rem !important; }
   .title-xxl-grad { font-size: 140px; } }
 
-@media (min-width: 768px) { .title-xl-2 { font-size: 2.2rem !important; }
+@media (min-width: 768px) { .title-xl-2 { font-size: 3.1rem !important; }
   .title-xxl-grad { font-size: 200px; } }
 
 @media (min-width: 992px) { .title-xxl-grad { font-size: 250px; }
@@ -4178,7 +4178,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .section-head .title-xs:not(:last-child) { margin-bottom: .5rem; }
 
-.section-head .title:before { position: absolute; left: 50%; top: 50%; content: attr(title); font-family: "Ubuntu", sans-serif; line-height: .9; text-transform: uppercase; white-space: nowrap; color: #28384c; transform: translate(-50%, -50%); opacity: 0.06; }
+.section-head .title:before { position: absolute; left: 50%; top: 50%; content: attr(title); font-family: "Ubuntu", sans-serif; line-height: .9; text-transform: uppercase; white-space: nowrap; color: #4b6d98; transform: translate(-50%, -50%); opacity: 0.06; }
 
 .tc-light .section-head .title:before { opacity: 0.2; }
 
@@ -5489,7 +5489,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .toktmln-item div:last-child { padding: 0 0 0 0; }
   .toktmln-item div span:last-child { font-size: .875em; } }
 
-.stage-info { padding-left: 15px; }
+.stage-info { padding-left: 0px; }
 
 .stage-info .title { margin-bottom: .5rem; }
 
@@ -6959,6 +6959,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 }
 
 
+
 @media (max-width: 768px){
   .banner-gfx-re-s3{
     text-align: center;
@@ -6985,31 +6986,27 @@ ul.progress-info { display: flex; justify-content: space-between; }
     height: 67px;
   }
 
-  
-  #products-img{
-    text-align: center;
-    display: none;
-  }
 
   .text-skayline{
     display: block;
 }
-
-  /* #products-img img{
-    width: 50px !important;
-  } */
 
   .is-transparent .banner-fs{
     min-height: 100vh;
   }
 
   .cpn-head .title{
-    font-size: 2rem;
+    font-size: 2.9rem;
     margin-top: 2em;
   }
 
   p.lead i{
     font-size: 14px !important;
+  }
+
+  #products-img{
+    text-align: center;
+    display: none;
   }
 }
 
